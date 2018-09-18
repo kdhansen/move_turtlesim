@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node name="simulator" pkg="turtlesim" type="turtlesim_node" />
+  <node name="make_box" pkg="move_turtlesim" type="make_box">
+    <param name="box-size" value="5.0" />
+  </node>
+</launch>
